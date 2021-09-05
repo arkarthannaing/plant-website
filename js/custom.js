@@ -13,7 +13,7 @@ $('.carousel .carousel-item').each(function(){
         }
         
         next.children(':first-child').clone().appendTo($(this));
-      }
+    }
 });
 
 $(function () {
@@ -38,5 +38,9 @@ function topFunction() {
 
 setTimeout(function () {
   $("#loader").removeClass("d-flex").fadeOut(2000);
-  $("#myDiv").fadeIn(2000);
-}, 4000);
+  $("#main").fadeIn(2000);
+}, 2000);
+
+function navBgChange(){
+    $("#mainNavbar").toggleClass("primary-bg");
+}
