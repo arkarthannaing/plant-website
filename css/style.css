@@ -37,6 +37,10 @@ section:not(:first-of-type){
     padding : 5em 1em;
 }
 
+.title{
+    text-transform: uppercase;
+}
+
 /* Top Button */
 
 #topBtn {
@@ -210,13 +214,13 @@ footer{
 .social-icon a{
     /*color : #ccc;*/
     font-size : 1.25em;
-    padding-right : 1em;
+    padding-right : .8em;
     text-decoration: none;
 }
 
 .social-icon i{
     transition: all 1s;
-    border : 1px solid #555;
+    border : 1px solid rgba(0, 0, 0, .2);
     border-radius: 50%;
     background : rgba(0, 0, 0, .3);
     color : #faf7f7;
@@ -241,7 +245,7 @@ footer{
 
 /*Carousel*/
 
-.carousel-item img{
+#best-sellers .carousel-item img{
     padding : .25em;
 }
 
@@ -264,21 +268,109 @@ footer{
 }
 
 @media (max-width: 992px) {
-    .carousel-inner .carousel-item > div {
+    #best-sellers .carousel-inner .carousel-item > div {
         display: none;
     }
-    .carousel-inner .carousel-item > div:first-child {
+    #best-sellers .carousel-inner .carousel-item > div:first-child {
         display: block;
     }
 }
 
-.carousel-inner .carousel-item.active,
-.carousel-inner .carousel-item-next,
-.carousel-inner .carousel-item-prev {
+#best-sellers .carousel-inner .carousel-item.active,
+#best-sellers .carousel-inner .carousel-item-next,
+#best-sellers .carousel-inner .carousel-item-prev {
     display: flex;
     justify-content: center;
 }
 
+/* Custormer FeedBack */
+
+#feedback .card{
+    margin: auto;
+    border-radius : 1.5em;
+}
+
+#feedback .card-header{
+    border-radius: 1.5em  1.5em 0 0;
+    background-color: #09cca5;
+    padding-top : 1em
+}
+
+#feedback img{    
+   width: 100px;
+   height: 100px;
+   border-radius : 50%;
+   /*margin: auto;*/
+}
+
+#feedback .rating i{
+    color : #09cca5;
+}
+
+.left-quote{
+    position: relative;
+    right : 5em;
+    top : 2em;
+}
+
+.right-quote{
+    position: relative;
+    right : -5em;
+    bottom : 2em;
+}
+
+@media (min-width: 1024px){
+    #feedback .card { width : 60%  }
+    .left-quote { right : 14em }
+    .right-quote { right : -14em }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    #feedback .card { width : 80%  }
+    .left-quote { right : 10em }
+    .right-quote { right : -10em }
+}
+
+@media ( min-width : 1440px){
+    #feedback .card { width : 55% }
+}
+
+#feedback .card-header .left-quote::before {
+    content: "\f10d";
+    font-family: 'Font Awesome 5 Free';
+    font-size: 4em;
+    font-weight: 900;
+    line-height: 1;
+    color: #fff;
+    opacity: .3;    
+}
+
+#feedback .card-header .right-quote::after {
+    content: "\f10e";
+    font-family: 'Font Awesome 5 Free';
+    font-size: 4em;
+    font-weight: 900;
+    line-height: 1;
+    color: #fff;
+    opacity: .3;    
+}
+
+#testing{
+    background: url('../imgs/blog-2.jpg');
+    position: relative;
+    background-size: cover;  
+}
+
+#color-overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, .7);
+}
+
+/*Blogs*/
 
 .thumbnail-minimal {
     position: relative;

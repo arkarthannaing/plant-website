@@ -1,4 +1,4 @@
-$('.carousel .carousel-item').each(function(){
+$('#best-sellers .carousel .carousel-item').each(function(){
     var minPerSlide = 2;
     var next = $(this).next();
     if (!next.length) {
