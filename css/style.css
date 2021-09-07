@@ -80,7 +80,7 @@ section:not(:first-of-type){
     top : 10em;
 }
 
-/*Navbar*/
+/* Navbar */
 
 #mainNavbar {
     font-size: 1.25rem;
@@ -118,11 +118,8 @@ section:not(:first-of-type){
 #mainNavbar .nav-link:hover::after,
 #mainNavbar .nav-link:focus::after {
   opacity: 1;
-  /*transform: translate3d(0, 0.2em, 0);*/
    transform: scale(1);
 }
-
-
 
 /*#mainNavbar .navbar-brand {
     color: #EA1C2C;
@@ -134,7 +131,7 @@ section:not(:first-of-type){
     transition: background 500ms;
 }
 
-/*Banner*/
+/* Banner */
 
 #banner{
     height : 100vh;
@@ -145,14 +142,14 @@ section:not(:first-of-type){
     margin : 0 !important;
 }
 
-/*About*/
+/* About */
 
 #about img{
     border : 5px solid lightgray;
     border-radius: 1.25em;
 }
 
-/*Services*/
+/* Services */
 
 #services img{
     width : 100%;
@@ -169,7 +166,7 @@ section:not(:first-of-type){
     /*background : lightgreen;*/
 }
 
-/*Blogs*/
+/* Recent Blogs */
 
 #blogs img{
     transition: all 1s;
@@ -188,14 +185,14 @@ section:not(:first-of-type){
     margin-top : 1em;
 }
 
-/*Footer*/
+/* Footer */
 
 footer{
     background-color: #10ac84;
 }
 
 #footer{
-    padding : 5em 1em;
+    padding : 7em 1em;
     color : #fff;
 }
 
@@ -367,7 +364,7 @@ footer{
    left: 0;
    width: 100%;
    height: 100%;
-   background-color: rgba(0, 0, 0, .7);
+   background-color: rgba(0, 0, 0, .5);
 }
 
 /*Blogs*/
@@ -395,18 +392,6 @@ footer{
     height: auto;
     /*max-width: none;*/
 }
-
-/*@supports (object-fit: cover) {
-    .thumbnail-minimal-image {
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        transform: none;
-        object-fit: cover;
-        object-position: center center;
-    }
-}*/
 
 .thumbnail-minimal-caption {
     position: absolute;
