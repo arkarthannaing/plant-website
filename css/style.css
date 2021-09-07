@@ -292,6 +292,16 @@ footer{
     justify-content: center;
 }
 
+.carousel-indicators{
+    bottom : -2em;
+}
+
+.carousel-indicators [data-bs-target]{
+    width : 10px;
+    height: 10px;
+    border-radius : 50%;
+}
+
 /* Custormer FeedBack */
 
 #feedback .card{
