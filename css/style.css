@@ -13,7 +13,7 @@ a{
     text-decoration: none;
 }
 
-p{
+p,a,span{
     font-family: "Lato", sans-serif;
 }
 
@@ -140,6 +140,7 @@ section:not(:first-of-type){
 
 #banner p{
     margin : 0 !important;
+    font-size : 1.15em;
 }
 
 /* About */
@@ -164,6 +165,17 @@ section:not(:first-of-type){
     display: flex;
     align-items: center;
     /*background : lightgreen;*/
+}
+
+/*Wholesale*/
+
+#wholesale a{
+    transition: all .5s;
+}
+
+#wholesale a:hover{
+    background-color: transparent;
+    color : #fff;
 }
 
 /* Recent Blogs */
@@ -352,7 +364,7 @@ footer{
     opacity: .3;    
 }
 
-#testing{
+#feedback{
     background: url('../imgs/blog-2.jpg');
     position: relative;
     background-size: cover;  
