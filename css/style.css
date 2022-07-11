@@ -1,5 +1,5 @@
 body {
-    background-color: #09cca5;
+    background-color: #20937c;
     /*font-family: "Nunito", sans-serif;*/
     overflow-x: hidden;
     margin : 0;
@@ -71,9 +71,9 @@ section:not(:first-of-type){
     padding: 1em 1.2em;
 }
 
-#mainNavbar .nav-link:hover {
+/* #mainNavbar .nav-link:hover {
     color: #EA1C2C;
-}
+} */
 
 /*#mainNavbar .navbar-brand {
     color: #EA1C2C;
