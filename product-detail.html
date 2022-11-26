@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <title>Plant Shop</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" type="image/png" href="./assets/images/icon.png" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/plugins/glightbox.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+</head>
+
+<body>
+
+    <span id="loader">
+        <img src="./assets/images/loader.gif" alt="loader" />
+    </span>
+
+    <div id="main">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNavbar">
+            <div class="container">
+                <!-- Logo -->
+                <a class="navbar-brand me-auto" href="#">
+                    <img src="assets/images/logo.png" alt="" width="80" height="80"
+                        class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation" onclick="navBgChange()">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="products.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blogs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Banner Section -->
+        <section class="container">
+            <div class="row align-items-center" id="inner-banner">
+                <div class="col-md-12">
+                    <div class="text-white mt-5" id="">
+                        <h1 class="mb-3 text-uppercase"> Product Detail </h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio bg-white">
+            <div class="container aos-init aos-animate" data-aos="fade-up">
+                <div class="row justify-content-center">
+                    <div class="col-md-12 mb-5 text-center">
+                        <h2 class="main-title mb-3 animate__animated animate__bounceInRight">
+                            All Products
+                        </h2>
+                        <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, maxime ab incidunt</span>
+
+                        <ul id="portfolio-flters" class="aos-init aos-animate mt-5" data-aos="fade-up"
+                            data-aos-delay="100">
+                            <li data-filter="*" class="filter-active">All</li>
+                            <li data-filter=".filter-indoor">Indoor Plants</li>
+                            <li data-filter=".filter-outdoor">Outdoor Plants</li>
+                            <li data-filter=".filter-accessories">Accessories</li>
+                        </ul>
+
+                        <div class="row portfolio-container aos-init aos-animate" data-aos="fade-up"
+                            data-aos-delay="200" style="position: relative; height: 1267.11px;">
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-indoor"
+                                style="position: absolute; left: 0px; top: 0px;">
+                                <div class="portfolio-img"><img src="assets/images/products/plant-1.jpg"
+                                        class="img-fluid" alt="">
+                                </div>
+                                <div class="portfolio-info">
+                                    <h4>Indoor Plant 1</h4>
+                                    <p> Indoor Plant </p>
+                                    <a href="assets/images/products/plant-1.jpg" data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox preview-link" title="Indoor Plant 1"><i
+                                            class="fa fa-plus"></i></a>
+                                    <a href="product-detail.html" class="details-link" title="More Details"><i
+                                            class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-accessories"
+                                style="position: absolute; left: 440px; top: 0px;">
+                                <div class="portfolio-img"><img src="assets/images/products/plant-2.jpg"
+                                        class="img-fluid" alt="">
+                                </div>
+                                <div class="portfolio-info">
+                                    <h4>Accessories 3</h4>
+                                    <p> Accessories </p>
+                                    <a href="assets/images/products/plant-2.jpg" data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox preview-link" title="Accessories 3"><i
+                                            class="fa fa-plus"></i></a>
+                                    <a href="product-detail.html" class="details-link" title="More Details"><i
+                                            class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-indoor"
+                                style="position: absolute; left: 880px; top: 0px;">
+                                <div class="portfolio-img"><img src="assets/images/products/plant-3.jpg"
+                                        class="img-fluid" alt="">
+                                </div>
+                                <div class="portfolio-info">
+                                    <h4>Indoor Plant 2</h4>
+                                    <p> Indoor Plant </p>
+                                    <a href="assets/images/products/plant-3.jpg" data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox preview-link" title="Indoor Plant 2"><i
+                                            class="fa fa-plus"></i></a>
+                                    <a href="product-detail.html" class="details-link" title="More Details"><i
+                                            class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-outdoor"
+                                style="position: absolute; left: 880px; top: 264px;">
+                                <div class="portfolio-img"><img src="assets/images/products/plant-4.jpg"
+                                        class="img-fluid" alt="">
+                                </div>
+                                <div class="portfolio-info">
+                                    <h4>Outdoor Plant 2</h4>
+                                    <p> Outdoor Plant </p>
+                                    <a href="assets/images/products/plant-4.jpg" data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox preview-link" title="Outdoor Plant 2"><i
+                                            class="fa fa-plus"></i></a>
+                                    <a href="product-detail.html" class="details-link" title="More Details"><i
+                                            class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-accessories"
+                                style="position: absolute; left: 440px; top: 308.922px;">
+                                <div class="portfolio-img"><img src="assets/images/products/plant-5.jpg"
+                                        class="img-fluid" alt="">
+                                </div>
+                                <div class="portfolio-info">
+                                    <h4>Accessories 2</h4>
+                                    <p> Accessories </p>
+                                    <a href="assets/images/products/plant-5.jpg" data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox preview-link" title="Accessories 2"><i
+                                            class="fa fa-plus"></i></a>
+                                    <a href="product-detail.html" class="details-link" title="More Details"><i
+                                            class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-indoor"
+                                style="position: absolute; left: 0px; top: 451.703px;">
+                                <div class="portfolio-img"><img src="assets/images/products/plant-6.jpg"
+                                        class="img-fluid" alt="">
+                                </div>
+                                <div class="portfolio-info">
+                                    <h4>Indoor Plant 3</h4>
+                                    <p> Indoor Plant </p>
+                                    <a href="assets/images/products/plant-6.jpg" data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox preview-link" title="Indoor Plant 3"><i
+                                            class="fa fa-plus"></i></a>
+                                    <a href="product-detail.html" class="details-link" title="More Details"><i
+                                            class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-outdoor"
+                                style="position: absolute; left: 880px; top: 569.078px;">
+                                <div class="portfolio-img"><img src="assets/images/products/plant-7.jpg"
+                                        class="img-fluid" alt="">
+                                </div>
+                                <div class="portfolio-info">
+                                    <h4>Outdoor Plant 1</h4>
+                                    <p> Outdoor Plant </p>
+                                    <a href="assets/images/products/plant-7.jpg" data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox preview-link" title="Outdoor Plant 1"><i
+                                            class="fa fa-plus"></i></a>
+                                    <a href="product-detail.html" class="details-link" title="More Details"><i
+                                            class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-outdoor"
+                                style="position: absolute; left: 880px; top: 869.109px;">
+                                <div class="portfolio-img"><img src="assets/images/products/plant-8.jpg"
+                                        class="img-fluid" alt="">
+                                </div>
+                                <div class="portfolio-info">
+                                    <h4>Outdoor Plant 3</h4>
+                                    <p> Outdoor Plant </p>
+                                    <a href="assets/images/products/plant-8.jpg" data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox preview-link" title="Outdoor Plant 3"><i
+                                            class="fa fa-plus"></i></a>
+                                    <a href="product-detail.html" class="details-link" title="More Details"><i
+                                            class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-accessories"
+                                style="position: absolute; left: 440px; top: 960.766px;">
+                                <div class="portfolio-img"><img src="assets/images/products/plant-9.jpg"
+                                        class="img-fluid" alt="">
+                                </div>
+                                <div class="portfolio-info">
+                                    <h4>Accessories 3</h4>
+                                    <p> Accessories </p>
+                                    <a href="assets/images/products/plant-9.jpg" data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox preview-link" title="Accessories 3"><i
+                                            class="fa fa-plus"></i></a>
+                                    <a href="product-detail.html" class="details-link" title="More Details"><i
+                                            class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer>
+            <div class="container" id="footer">
+                <div class="row">
+                    <div class="col-lg-4" id="about">
+                        <h4 class="">About Us</h4>
+                        <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        <div class="address">
+                            <span> <i class="fa fa-home me-1"></i> No 60 , lorem ipsum , lorem ipsum , lorem
+                                ipsum.</span>
+                        </div>
+                        <div class="contact mt-3">
+                            <span> <i class="fa fa-phone-alt me-1"></i> 09-123 456 789</span>
+                            <span class="ms-3"> <i class="fa fa-phone-alt me-1"></i> 09-123 456 789</span>
+                        </div>
+                        <div class="social-icon mt-3">
+                            <a href="#" target="_blank">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="#" target="_blank">
+                                <i class="far fa-envelope"></i>
+                            </a>
+                            <a href="#" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" target="_blank">
+                                <i class="fab fa-viber"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 shortcuts">
+                        <h4 class="mt-lg-0 mt-5"> Information </h4>
+                        <a href="#" target="_blank">
+                            About Us
+                        </a>
+                        <a href="#" target="_blank">
+                            Delivery Information
+                        </a>
+                        <a href="#" target="_blank">
+                            Contact Us
+                        </a>
+                        <a href="#" target="_blank">
+                            Privacy Policy
+                        </a>
+                        <a href="#" target="_blank">
+                            Terms and Conditions
+                        </a>
+                    </div>
+                    <div class="col-lg-4">
+                        <h4 class="mt-lg-0 mt-5">Our Facebook Page</h4>
+
+                        <iframe
+                            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FAkGraphicDesignHouse&tabs=timeline&width=400&height=250&small_header=true&adapt_container_width=false&hide_cover=false&show_facepile=false&Indoor PlantId"
+                            width="100%" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                            allowfullscreen="true"
+                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; Accessories-share"></iframe>
+
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid" id="copyright">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <span> 2022 Copyright @ AKTN </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Top Button -->
+        <div id="topBtn" onclick="topFunction()">
+            <i class="fa fa-arrow-up"></i>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
